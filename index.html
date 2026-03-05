@@ -12,115 +12,71 @@
         .price-tag { background: linear-gradient(90deg, #f97316 0%, #fb923c 100%); }
     </style>
 </head>
-<body class="bg-gray-100 flex justify-center py-10 px-4">
+<body class="bg-gray-100 flex justify-center items-center min-h-screen py-6 px-4">
 
-    <!-- Confirmation: NEITHER Mermaid JS NOR SVG were used in this output. -->
-
-    <div class="max-w-md w-full bg-white shadow-2xl rounded-3xl overflow-hidden border-4 border-white">
+    <div class="max-w-2xl w-full bg-white shadow-2xl rounded-3xl overflow-hidden border-4 border-white">
         
-        <!-- Header Section -->
-        <div class="gradient-bg p-8 text-center text-white relative">
-            <!-- Removed the yellow BAYU SURIA badge from this section -->
-            <h1 class="text-3xl font-extrabold tracking-tight mb-1">PERKHIDMATAN</h1>
-            <h2 class="text-5xl font-black text-yellow-400 drop-shadow-lg mb-4">PRINTER</h2>
-            <p class="text-blue-100 font-medium">Cepat, Berkualiti & Mudah</p>
+        <!-- Header: More Compact -->
+        <div class="gradient-bg px-6 py-6 text-center text-white">
+            <h1 class="text-xl font-extrabold tracking-tight opacity-90">PERKHIDMATAN</h1>
+            <h2 class="text-4xl font-black text-yellow-400 drop-shadow-md">PRINTER</h2>
         </div>
 
-        <!-- Services List -->
-        <div class="p-6 space-y-4">
-            <div class="flex items-center space-x-4 bg-blue-50 p-4 rounded-2xl border border-blue-100">
-                <div class="text-2xl">📄</div>
-                <div>
-                    <h3 class="font-bold text-blue-900">Cetak Dokumen</h3>
-                    <p class="text-xs text-blue-700">Assignments, Nota & Borang</p>
-                </div>
-            </div>
-            <div class="flex items-center space-x-4 bg-orange-50 p-4 rounded-2xl border border-orange-100">
-                <div class="text-2xl">🎨</div>
-                <div>
-                    <h3 class="font-bold text-orange-900">Printing Warna</h3>
-                    <p class="text-xs text-orange-700">Terang & Jelas (Ink Tank System)</p>
-                </div>
-            </div>
-            <div class="flex items-center space-x-4 bg-green-50 p-4 rounded-2xl border border-green-100">
-                <div class="text-2xl">📑</div>
-                <div>
-                    <h3 class="font-bold text-green-900">Fotostat & Salinan</h3>
-                    <p class="text-xs text-green-700">Hantar PDF via WhatsApp</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Pricing Section -->
-        <div class="px-6 pb-2 grid grid-cols-2 gap-4">
-            <div class="price-tag p-4 rounded-2xl text-white text-center shadow-lg">
-                <span class="text-xs font-bold uppercase opacity-80">Hitam & Putih</span>
-                <div class="text-2xl font-black">RM 0.50</div>
-                <span class="text-xs">per helai</span>
-            </div>
-            <div class="bg-blue-900 p-4 rounded-2xl text-white text-center shadow-lg">
-                <span class="text-xs font-bold uppercase opacity-80">Berwarna</span>
-                <div class="text-2xl font-black text-yellow-400">RM 1.00</div>
-                <span class="text-xs">per helai</span>
-            </div>
-        </div>
-
-        <!-- Premium Add-on Section -->
-        <div class="px-6 pb-6">
-            <div class="bg-yellow-400 rounded-2xl p-3 flex justify-between items-center border-b-4 border-yellow-600">
-                <div class="flex items-center">
-                    <span class="text-xl mr-2">📸</span>
-                    <div class="leading-tight">
-                        <p class="text-[10px] font-black uppercase text-blue-900 opacity-70 tracking-tighter">Premium Add-on</p>
-                        <p class="text-xs font-bold text-blue-900">Foto / Flyer Borderless</p>
+        <!-- Main Content Grid: Landscape-Friendly Layout -->
+        <div class="md:grid md:grid-cols-2 gap-0">
+            
+            <!-- Left Side: Services & Pricing -->
+            <div class="p-6 border-b md:border-b-0 md:border-r border-gray-100">
+                <div class="grid grid-cols-1 gap-3 mb-4">
+                    <div class="flex items-center space-x-3 bg-blue-50 p-3 rounded-xl border border-blue-100">
+                        <span class="text-xl">📄</span>
+                        <span class="font-bold text-blue-900 text-sm">Cetak Dokumen / Nota</span>
+                    </div>
+                    <div class="flex items-center space-x-3 bg-orange-50 p-3 rounded-xl border border-orange-100">
+                        <span class="text-xl">🎨</span>
+                        <span class="font-bold text-orange-900 text-sm">Printing Warna Tajam</span>
                     </div>
                 </div>
-                <div class="text-blue-900 font-black text-lg">RM 1.50</div>
-            </div>
-        </div>
 
-        <!-- Terms & Conditions Section -->
-        <div class="mx-6 mb-6 p-4 bg-gray-50 rounded-2xl border border-gray-200">
-            <h4 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3 flex items-center">
-                <span class="mr-2">📋</span> Terma & Syarat
-            </h4>
-            <ul class="text-[11px] text-gray-600 space-y-2">
-                <li class="flex items-start">
-                    <span class="text-blue-600 mr-2">•</span>
-                    <span><strong>Masa Siap:</strong> 5-10 minit bergantung kepada kuantiti.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-blue-600 mr-2">•</span>
-                    <span><strong>Format:</strong> Sila hantar dokumen dalam format <strong>PDF</strong> sahaja untuk mengelakkan susun atur (alignment) lari.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-blue-600 mr-2">•</span>
-                    <span><strong>Waktu Operasi (Isnin-Jumaat):</strong> 8:00 PM — 10:00 PM sahaja.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-blue-600 mr-2">•</span>
-                    <span><strong>Waktu Operasi (Weekend/Public):</strong> 9:00 AM — 10:00 PM sahaja.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-blue-600 mr-2">•</span>
-                    <span><strong>Penghantaran:</strong> Self-pickup di Blok A.</span>
-                </li>
-            </ul>
-        </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="price-tag p-3 rounded-xl text-white text-center shadow-md">
+                        <p class="text-[10px] font-bold uppercase opacity-80">B&W</p>
+                        <p class="text-xl font-black">RM 0.50</p>
+                    </div>
+                    <div class="bg-blue-900 p-3 rounded-xl text-white text-center shadow-md">
+                        <p class="text-[10px] font-black uppercase text-yellow-400 tracking-tighter">Berwarna</p>
+                        <p class="text-xl font-black">RM 1.00</p>
+                    </div>
+                </div>
 
-        <!-- Call to Action / Contact -->
-        <div class="p-6 bg-yellow-50 border-t border-yellow-200">
-            <p class="text-center text-xs font-bold text-yellow-700 uppercase mb-3">Hubungi Kami Sekarang!</p>
-            <div class="flex flex-col space-y-3">
-                <a href="https://wa.me/60135820629?text=Hello!%20Saya%20nak%20print%20dokumen%20di%20Blok%20A" target="_blank" class="bg-green-600 text-white flex items-center justify-center py-3 rounded-xl font-bold shadow-md hover:bg-green-700 transition">
-                    <span class="mr-2">💬</span> WhatsApp: 013-5820629
-                </a>
-                <div class="flex items-center justify-center text-gray-700 text-sm font-medium">
-                    <span class="mr-2">📍</span> Blok A, Apartment Bayu Suria
+                <!-- Premium Add-on (Slimmed down) -->
+                <div class="mt-3 bg-yellow-400 rounded-xl p-2 flex justify-between items-center px-4">
+                    <span class="text-xs font-bold text-blue-900">📸 Borderless Flyer</span>
+                    <span class="text-blue-900 font-black text-sm">RM 1.50</span>
                 </div>
             </div>
-        </div>
 
+            <!-- Right Side: Terms & Operating Hours -->
+            <div class="p-6 bg-gray-50">
+                <h4 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-2 flex items-center">
+                    <span class="mr-2">📋</span> INFO & TERMA
+                </h4>
+                <ul class="text-[10px] text-gray-600 space-y-1.5 leading-tight">
+                    <li><strong>Format:</strong> PDF Sahaja (Elak lari alignment)</li>
+                    <li><strong>Isnin-Jumaat:</strong> 8:00 PM — 10:00 PM</li>
+                    <li><strong>Weekend/Public:</strong> 9:00 AM — 10:00 PM</li>
+                    <li><strong>Lokasi:</strong> Self-pickup Blok A</li>
+                </ul>
+
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/60135820629?text=Hello!%20Saya%20nak%20print%20dokumen%20di%20Blok%20A" target="_blank" class="bg-green-600 text-white flex items-center justify-center py-3 rounded-xl font-bold shadow-md hover:bg-green-700 transition w-full">
+                        <span class="mr-2 text-lg">💬</span> WhatsApp Sekarang
+                    </a>
+                    <p class="text-center text-[10px] text-gray-400 mt-2 font-medium">📍 Blok A, Apartment Bayu Suria</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </body>
